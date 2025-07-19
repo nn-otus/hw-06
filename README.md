@@ -129,7 +129,7 @@ systemd-1 on /media/share_on_srv06 type autofs (rw,relatime,fd=65,pgrp=1,timeout
 192.168.0.14:/srv/share/ on /media/share_on_srv06 type nfs (rw,relatime,vers=3,rsize=524288,wsize=524288,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=192.168.0.14,mountvers=3,mountport=42768,mountproto=udp,local_lock=none,addr=192.168.0.14)
 root@u24cln06:~#
 ```
-* Примечание: потребовалась перезагрузка, чтобы mount выдала 3-ю версию nfs. Без перезагрузки в выводе была версия 
+* Примечание: потребовалась перезагрузка, чтобы mount выдала 3-ю версию nfs. Без перезагрузки в выводе была версия 4 
 ##### Проверяем работоспособность NFS
 
 ###### Создаем файл на сервере
